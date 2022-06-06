@@ -5,7 +5,7 @@ exports.picker = function(prices) {
         for (let j = i + 1; j < prices.length; j++){	
             if ((prices[j] - prices[i]) > maxProfit){	
                 maxProfit = prices[j] - prices[i];	
-                 maxProfitIndices = [i, j];	
+                maxProfitIndices = [i, j];	
             }	
         }	
     }	
